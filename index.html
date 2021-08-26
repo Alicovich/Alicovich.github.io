@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devise-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>questionnaire</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <a class="nav_link" href="#">Личная информация</a>
+            <a class="nav_link" href="#">опыт</a>
+            <a class="nav_link" href="#">JavaScript</a>
+            <a class="nav_link" href="#">О себе</a>
+        </nav>
+    </div>
+</header>
+
+<div class="intro">    
+    <div class="container">
+        <h1 class="intro_title">Анкета</h1>
+
+        <div class="intro_item">
+        <img class="intro_img" src="assets/image/icon.png" alt="">
+        </div>
+        <h2 class="intro_info">Личная информация</h2>
+
+        <div class="intro_page">
+            <p>
+                <input class="intro_text" type="text" id="firstname" name="firstname" placeholder="Ли Дмитрий Аликович">
+            </p>
+            
+                <p>
+                    <input class="intro_text" type="number" id="firstname" name="firstname" placeholder="1989">
+                </p>
+            <p>
+                <input class="intro_text" type="text" id="firstname" name="firstname" placeholder="Караганда">
+            </p>
+            <p>
+                <input class="intro_text" type="text" id="firstname" name="firstname" placeholder="Skype">
+            </p>
+            <p>
+                <input class="intro_text" type="text" id="firstname" name="firstname" placeholder="Status_lee89@mail.ru">
+            </p>
+        </div>
+    </div>
+         
+</div>
+    <work class="work">
+            <div class="container">
+                <div class="work_intro">
+                    <img src="assets/image/Shape 7.png" alt="">    
+               
+                <h3 class="work_header">Расскажите о своем опыте</h3> 
+                    </div> 
+                        <div class="work_chek">
+
+                            <div class="work_box">
+                                
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">БЭМ/OOCSS</label><br>
+                            
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Stylus/LESS/SASSе</label><br>
+
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Работаю с SVG</label><br> 
+
+                            </div>  
+                          
+                            <div class="work_box">
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Верстаю семантично</label><br>
+
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">ES2015/ES2016</label><br> 
+
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Gulp/GRUNT</label><br>
+                            </div> 
+
+                            <div class="work_box">
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Webpack</label><br> 
+
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">jQuery</label><br> 
+
+                                <input type="checkbox" id="raz"/>
+                                <label for="raz">Ипользую Git</label><br> 
+                            </div>
+                        </div>
+                    <div class="work_intro">
+                         <img src="assets/image/icon 2.png" alt="">    
+                
+                        <h3 class="work_header">Уровень владение JavaScript</h3> 
+                        </div> 
+                    <div class="slider">
+                        <input class="slider_work" type="range" min="-1" max="4">
+                        
+                    </div>
+            </div>
+    </work>  
+    
+    <div class="info">
+        <div class="container">
+            <div class="info_intro">
+                <img src="assets/image/icon3.png" alt="">
+
+                <h3 class="info_head">Расскажите о себе</h3>
+                <p class="info_text">Напишите несколько предложений, чем привлекла наша вакансия
+                    и что вы ожидаете от работы у нас.</p>
+            </div>
+
+            <p class="info_page">
+                <input class="info_tarea" type="text" id="text" name="text" placeholder="Понравилась тем, что...">
+            </p>
+                
+            <div class="info_btn">
+                <a class="btn" href="#">Готово</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
